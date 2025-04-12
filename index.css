@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    a{
+        text-decoration: none;
+    }
+}
+ header{
+    background-color:#1a343c;
+    height: 1112px;
+    top: -237px;
+ }
+.conteiner{
+    max-width: 1440px;
+    padding: 0 200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items{
+    display: flex;
+    gap: 40px;
+}
+
+.items a {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: aliceblue;
+    }
+
+.btns button{
+    width: 140px;
+    height: 58px;
+    border-radius: 25px;
+    background: #145E76;
+    color: aliceblue;
+    border: none;
+}
+#toogle_button{
+    display: none;
+}
+.mobile_btn{
+    display: block;
+}
+@media(max-width:968px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btns{
+        display: none;
+    }
+    #mobile_btn{
+        display: block;
+    }
+    #toogle_button{
+        display: flex;
+    }
+    .items{
+        position: fixed;
+        background-color: #145E76;
+        display: flex;
+        right: -300px;
+        flex-direction: column;
+        padding-top: 80px;
+        align-items: center;
+        height: 100vh;
+        width: 250px;
+        color: aliceblue;
+        top: 100px;
+        transition: all 0.3s ease-in-out;
+    }
+    .items.show{
+        right: 0;
+    }
+}
+
+
+
+.allcard{
+    display: flex;
+}
+
+
+.card{
+    width: 1170px;
+    height: 323px;
+    margin-top: -40px;
+    margin-top: -237px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-left: 165px;
+    padding-bottom: 64px;
+
+}
+
+
+.card1{
+    width: 273px;
+    height: 251px;
+
+
+}
+
+.imgs{
+    margin-left: 30px;
+    
+}
+
+
+.card2{
+    width: 273px;
+    height: 251px;
+    background-color: #08546C;
+
+}
+
+
+.allcards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cardone{
+    width: 515px;
+    height: 588px;
+    top: 2354px;
+    left: 375px;
+
+}
+
+.doublecard{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardtwo{
+    width: 515px;
+    height: 588px;
+    top: 2354px;
+    left: 375px;
+    margin-left: 140px;
+}
+
+
+.throud{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+
+.allfard{
+    display: flex;
+}
+
+.texts{
+    margin-left: 30px;
+}
+
+.ikkinchibolim{
+    margin-left: 164px;
+}
+
+.hammabolim{
+    display: flex;
+}
